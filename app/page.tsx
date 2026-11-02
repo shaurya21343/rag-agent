@@ -3,6 +3,8 @@
 import { ClerkProvider, SignIn, useAuth } from '@clerk/nextjs'
 import Chat from '@/pages/chat-page'
 
+
+
 const Page = () => {
   
   const { isLoaded, isSignedIn } = useAuth()
